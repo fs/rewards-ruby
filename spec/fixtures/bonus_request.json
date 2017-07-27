@@ -1,0 +1,9 @@
+{
+    "data": {
+        "id": "botbonusrequest",
+        "type": "bot-bonus-requests",
+        "attributes": {
+            "text": "+100 for @timur.vafin for awesome work #awesome"
+        }
+    }
+}

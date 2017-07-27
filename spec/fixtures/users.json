@@ -1,0 +1,28 @@
+HTTP/1.1 200 OK
+Content-Type: application/vnd.api+json; charset=utf-8
+Date: Thu, 27 Jul 2017 12:50:32 GMT
+
+{
+    "data": [
+        {
+            "attributes": {
+                "email": "timur.vafin@flatstack.com",
+                "full-name": "Timur Vafin",
+                "profile-image-avatar-url": "//rewards-staging.flts.tk/assets/default-user-profile_image-8840d077a11aa734bcdd9e3d58eed663c3262440203b2560bd22ca39d72e14bf.svg",
+                "username": "timur.vafin"
+            },
+            "id": "4",
+            "type": "users"
+        },
+        {
+            "attributes": {
+                "email": "slava.kisel@flatstack.com",
+                "full-name": "Slava Kisel",
+                "profile-image-avatar-url": "//rewards-staging.flts.tk/assets/default-user-profile_image-8840d077a11aa734bcdd9e3d58eed663c3262440203b2560bd22ca39d72e14bf.svg",
+                "username": "slava.kisel"
+            },
+            "id": "5",
+            "type": "users"
+        }
+    ]
+}

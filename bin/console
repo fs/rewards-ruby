@@ -1,0 +1,14 @@
+#!/usr/bin/env ruby
+
+require "bundler/setup"
+
+# include here main library file
+require_relative "../lib/rewards"
+
+require "irb"
+IRB.start
+
+# Rewards.base_uri("http://rewards-staging.flts.tk/api/v1")
+# token = Rewards.new.bot_create_token("birthday", "123456")["data"]["attributes"]["token"]
+# Rewards.new(token: token).bot_users
+# Rewards.new(token: token).bot_create_bonus("Testing bots +100 @ramil.gabdrakhmanov #be-curious-never-stop-learning")
