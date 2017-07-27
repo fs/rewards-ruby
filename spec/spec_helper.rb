@@ -1,5 +1,4 @@
 require "webmock/rspec"
-require "byebug"
 
 require "rewards"
 require "support/helpers"

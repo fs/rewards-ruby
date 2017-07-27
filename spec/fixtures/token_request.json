@@ -1,6 +1,6 @@
 {
     "data": {
-        "id": "bottokenrequest",
+        "id": "bot-token-request",
         "type": "bot-token-requests",
         "attributes": {
             "name": "example",

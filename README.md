@@ -1,12 +1,16 @@
 # Rewards API
 
-## Install
-
-```bash
-bin/setup
-```
+This is Ruby client for [Rewards API](https://github.com/fs/rewards-api)
 
 ## Usage
+
+Add to `Gemfile`
+
+```ruby
+gem "rewards-ruby"
+```
+
+Perform requests:
 
 ```ruby
 Rewards.base_uri("http://rewards-staging.flts.tk/api/v1")

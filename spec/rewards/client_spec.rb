@@ -1,4 +1,4 @@
-describe Rewards do
+describe Rewards::Client do
   let(:base_uri) { "https://rewards.flts.tk/api/v1" }
   let(:token) { "token" }
   let(:client) { described_class.new(token: token) }
