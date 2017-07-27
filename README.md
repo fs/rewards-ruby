@@ -13,11 +13,11 @@ gem "rewards-ruby"
 Perform requests:
 
 ```ruby
-Rewards.base_uri("http://rewards-staging.flts.tk/api/v1")
-token = Rewards.new.bot_create_token("birthday", "123456")["data"]["attributes"]["token"]
+Rewards::Client.base_uri("http://rewards-staging.flts.tk/api/v1")
+token = Rewards::Client.new.bot_create_token("birthday", "123456")["data"]["attributes"]["token"]
 
-Rewards.new(token: token).bot_users
-Rewards.new(token: token).bot_create_bonus("Testing bots +100 @ramil.gabdrakhmanov #be-curious-never-stop-learning")
+Rewards::Client.new(token: token).bot_users
+Rewards::Client.new(token: token).bot_create_bonus("Testing bots +100 @ramil.gabdrakhmanov #be-curious-never-stop-learning")
 ```
 
 ## Quality tools
