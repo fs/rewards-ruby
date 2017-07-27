@@ -5,6 +5,8 @@ AllCops:
   DisplayCopNames: true
   Exclude:
     - bin/**/*
+    - .bundle/**/*
+    - vendor/bundle/**/*
 
 Rails:
   Enabled: false
