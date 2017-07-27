@@ -7,7 +7,7 @@ This is Ruby client for [Rewards API](https://github.com/fs/rewards-api)
 Add to `Gemfile`
 
 ```ruby
-gem "rewards-ruby"
+gem "rewards-ruby", git: "https://github.com/fs/rewards-ruby.git"
 ```
 
 Perform requests:
